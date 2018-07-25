@@ -1,5 +1,5 @@
 <?php
-$gender = 'homme'
+$gender = 'femmme' //definition de la variable
  ?>
  <!DOCTYPE html>
  <html lang="fr" dir="ltr">
@@ -9,14 +9,17 @@ $gender = 'homme'
    </head>
    <body>
      <p>
-     <?php
+
+
+<?php
+//défintions de la condition
 if ($gender == 'femme')
 {
   echo 'C\'est une développeuse !!!';
 } else {
   echo 'C\'est un développeur !!!';
 }
-      ?>
+?>
     </p>
    </body>
  </html>
